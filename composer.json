@@ -1,0 +1,22 @@
+{
+  "name": "cnam/codeception-json-schema",
+  "type": "library",
+  "description": "Json schema module for validate response by json schema for codeception test framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cnam",
+      "email": "cnam812@gmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "Codeception\\Module\\": "src/Codeception/Module/"
+    }
+  },
+
+  "require": {
+    "justinrainbow/json-schema": "1.4.1"
+  }
+}
